@@ -5,11 +5,13 @@ Se uso el driver para la versión 119.0.6045.105 compatible con la versión usad
 
 ##Casos de prueba:
 Usamos el método de Clases de Equivalencia para generar los casos de prueba, donde "a" es el primer valor, "b" el segundo valor a ingresar.
+
 | Escenario de Prueba |  Valores de Prueba | Resultado Esperado |
-| ------------- | ------------- | ------------- |
-| Caso válido | a=50,b=10 | 5 |
-| Caso Inválido  | a=50,b=15  | 5 |
-| Caso Inválido  | a=50,b=-10  | 5 |
+| ------------------- | ------------------ | ------------------ |
+| Caso válido         | a=50,b=10          |          5         |
+| Caso Inválido       | a=50,b=15          |          5         |
+| Caso Inválido       | a=50,b=-10         |          5         |
+
 ##Script:
 El script presenta 2 casos de prueba básicos basados en el formato de pruebas para la página (se creó una función de prueba para casos genéricos: test_percentage_calculation).
 
